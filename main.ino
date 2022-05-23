@@ -108,6 +108,8 @@ void loop()
       
       if (counter2==3) {
       digitalWrite(ALARMA, HIGH); //se activa la alarma
+      delay(2000);
+      digitalWrite(ALARMA, LOW); //se activa la alarma
       counter2=0;
      }     
     }
